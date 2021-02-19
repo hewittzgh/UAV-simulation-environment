@@ -1,35 +1,18 @@
-# starter-slim
+# UAV simulation environment document
 
-1. [Generate with the same files and folders](https://github.com/rundocs/starter-slim/generate) from this repository
-2. Set up your GitHub Pages to source(`/`)
-3. Now you can view your documentation in your site
+## description
+A **Docker image** of **PX4+ROS2+Gazebo** simulation environment out of the box.
 
-## site.pages
+## development environment
+- Any machine with docker installed and configured.
+- PX4 Autopilot v1.11.0
+- Gazebo emulator
+- ROS Melodic
 
-<!-- prettier-ignore-start -->
+## document directory
+{% include list.liquid all=true %}
 
-| source          | link                                                           |
-| --------------- | -------------------------------------------------------------- |
-{% for page in site.pages -%}
-| {{ page.path }} | [{{ page.url | relative_url }}]({{ page.url | relative_url }}) |
-{% endfor %}
-
-<!-- prettier-ignore-end -->
-
-## Documents
-
-https://jekyll-rtd-theme.rundocs.io
-
-## Local debug
-
-```sh
-gem install jekyll bundler
-
-bundle install
-
-JEKYLL_GITHUB_TOKEN=blank PAGES_API_URL=http://0.0.0.0 bundle exec jekyll server --livereload
-```
-
-## The license
-
-The theme is available as open source under the terms of the MIT License
+## useful link
+- [my github](https://github.com/hewittzgh/)
+- [my personal webpage](https://hewittzgh.github.io/)
+- [project repository](https://github.com/hewittzgh/UAV-simulation-environment/)
