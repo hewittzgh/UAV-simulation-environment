@@ -1,7 +1,7 @@
 DEBUG=JEKYLL_GITHUB_TOKEN=blank PAGES_API_URL=http://0.0.0.0
 
 default:
-	@gem install jekyll bundler && bundle install
+	@sudo gem install jekyll bundler && bundle install
 
 update:
 	@bundle update

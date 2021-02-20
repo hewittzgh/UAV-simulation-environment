@@ -106,3 +106,8 @@ The following warning will appear when vim is installed in the docker image, I p
 ```
 
 https://geographiclib.sourceforge.io/html/
+
+wget neet to install before
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings: 
+sudo apt-get install language-pack-en-base
