@@ -92,6 +92,30 @@ $ sudo dpkg -i code_1.53.0-1612368357_amd64.deb
 ```
 Now you can open **Visual Studio Code**.  
 ![VSCode](../docImages/VSCode.png)
+If you want to use my VSCode style settings, please do as follows:
+    - Download **2077 theme** from Extensions.
+    - Download font **Fira Code** via:
+    ```shell
+    $ sudo apt update
+    $ sudo apt install fonts-firacode
+    ```
+    - Modify your setting json:
+    ```json
+    {
+        "workbench.colorTheme": "2077",
+        "editor.fontFamily": "Fira Code",
+        "editor.fontLigatures": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.renderWhitespace": "all",
+        "editor.minimap.side": "left",
+        "files.autoSave": "afterDelay",
+        "workbench.sideBar.location": "right"
+    }
+    ```
+    ![My VSCode Style](../docImages/My_VSCode_Style.png)
 
 - [Optional]Install vim
 ```note
